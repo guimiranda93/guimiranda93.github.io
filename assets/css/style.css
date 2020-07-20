@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Clab";
-  src: url("fonts/clab/clab.otf");
+  src: url("../fonts/clab/clab.otf");
 }
 @font-face {
   font-family: "Clab";
-  src: url("fonts/clab/clab_bold.otf");
+  src: url("../fonts/clab/clab_bold.otf");
   font-weight: bold;
 }
 @font-face {
   font-family: "Clab";
-  src: url("fonts/clab/clab_italic.otf");
+  src: url("../fonts/clab/clab_italic.otf");
   font-style: italic;
 }
 @font-face {
   font-family: "Clab";
-  src: url("fonts/clab/clab_bold_italic.otf");
+  src: url("../fonts/clab/clab_bold_italic.otf");
   font-weight: bold;
   font-style: italic;
 }
