@@ -1,0 +1,332 @@
+
+@media only screen and (max-width: 769px) {
+
+  .navbar-brand img{
+    height:60px;
+  }
+
+  .first_div{
+    padding-top:40px;
+  }
+
+  .block-redes-sociais{
+    margin-top: -80px;
+  }
+
+  .block-redes-sociais-texto p{
+    font-size: 12pt;
+  }
+
+  .block-redes-sociais-texto{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 185px;
+  }
+
+  .carousel-caption-cdn{
+    top:0;
+    padding: 20px;
+    padding-bottom: 60px;
+  }
+
+  #carousel-cdn h1{
+    font-size: 90pt;
+    margin-bottom: -8px;
+    line-height:0;
+  }
+
+  #carousel-cdn h2{
+    font-size: 110pt;
+  }
+
+  .plan-prev{
+    margin-left:-30px;
+    max-width: 30px;
+  }
+
+  .plan-next{
+    margin-right:-30px;
+    max-width: 30px;
+  }
+
+  .planos .titulo{
+    font-size:28pt;
+  }
+
+  .planos .titulo_2{
+    font-size:30pt;
+  }
+
+  .planos span strong{
+    font-size:11pt;
+  }
+
+  .plan-prev span{
+    width: 20px;
+    height: 20px;
+  }
+
+  .plan-next span{
+    width: 20px;
+    height: 20px;
+  }
+
+  .carousel-caption-watch{
+    bottom:80px;
+  }
+
+  .cta-watch{
+    margin-top:-150px;
+  }
+
+  .titulo-texto-noggin{
+    margin-right:80px;
+  }
+
+  .botao-noggin strong{
+    font-size:24pt;
+  }
+
+  .banner-educa h1{
+    font-size:90pt;
+    margin-bottom:-80px;
+    text-align:right;
+  }
+
+  .banner-educa h2{
+    font-size:100pt;
+    margin-bottom:-80px;
+  }
+
+  .carimbo{
+    width: 400px;
+    top: -125px;
+    right: -100px;
+  }
+
+  .banner-educa h3{
+    font-size: 24pt;
+  }
+
+  .texto-banner-educa{
+    padding:1em;
+  }
+
+  .texto-fibra h3{
+    font-size:1.5rem;
+  }
+
+  .fibra-img{
+    padding-right:150px;
+  }
+
+  .texto-fibra h4{
+    font-size: 5rem;
+  }
+
+  .texto-fibra h5{
+    font-size: 1.8rem;
+  }
+
+  .texto-fibra h2{
+    font-size:3rem;
+  }
+
+  .cta-fibra h3{
+    font-size: 3rem;
+  }
+
+  .cta-fibra h4{
+    font-size: 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  h2{
+    font-size: 15pt;
+  }
+
+  .descubra .top{
+    margin-top:0;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
+  }
+
+  .descubra .bottom{
+    margin-top:0;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
+  }
+
+  .descubra img{
+    width: 150px;
+  }
+
+  .navbar-brand{
+    position: relative;
+    padding:.5rem;
+  }
+
+  .navbar-brand img{
+    height:40px;
+  }
+
+  #navbarNav{
+    margin-bottom: 0px;
+  }
+
+  .first_div{
+    padding-top:55px;
+  }
+
+  .block-redes-sociais{
+    margin-top: -80px;
+  }
+
+  .block-redes-sociais-texto p{
+    font-size: 7pt;
+  }
+
+  .block-redes-sociais-texto{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 85px;
+    line-height: 9px;
+  }
+
+  .carousel-caption-cdn{
+    top:0;
+    padding: 20px;
+    padding-bottom: 60px;
+  }
+
+  #carousel-cdn h1{
+    font-size: 41pt;
+    margin-bottom: -8px;
+    line-height:0;
+  }
+
+  #carousel-cdn h2{
+    font-size: 50pt;
+  }
+
+  .plan-prev{
+    margin-left:-10px;
+    max-width: 30px;
+  }
+
+  .plan-next{
+    margin-right:-10px;
+    max-width: 30px;
+  }
+
+  .carousel-caption-watch{
+    bottom:10px;
+  }
+
+  .cta-watch{
+    margin-top:-100px;
+  }
+
+  .watch-logo-banner{
+    width: 280px;
+  }
+
+  .titulo-texto-noggin{
+    margin-right:0;
+  }
+
+  .botao-noggin strong{
+    font-size:12pt;
+  }
+
+  .titulo-banner-educa{
+    margin-top:40px;
+  }
+
+  .banner-educa h1{
+    font-size:55pt;
+    margin-bottom:-50px;
+    text-align:right;
+  }
+
+  .banner-educa h2{
+    font-size:65pt;
+    margin-bottom:-50px;
+  }
+
+  .carimbo{
+    width: 300px;
+    top: -125px;
+    right: -100px;
+  }
+
+  .banner-educa h3{
+    font-size: 24pt;
+  }
+
+  .muito-mais .back-span{
+    font-size:45pt;
+    position:absolute;
+    right:-10px;
+    top:-10px;
+  }
+
+  .muito-mais span{
+    font-size:36pt;
+  }
+
+  .texto-fibra h2{
+    font-size:2rem;
+  }
+
+  .texto-fibra h3{
+    font-size:1rem;
+  }
+
+  .texto-fibra h4{
+    font-size: 5rem;
+  }
+
+  .texto-fibra h5{
+    font-size: 1.8rem;
+  }
+
+  .texto-fibra h6{
+    font-size: 1rem;
+  }
+
+  .fibra-img{
+    padding-right:20px;
+  }
+
+  .card-fibra{
+    border:none;
+  }
+
+  .cta-fibra h3{
+    font-size: 1.5rem;
+  }
+
+  .cta-fibra h4{
+    font-size: 1rem;
+  }
+
+  .titulo-fibra-transmissao h2{
+    font-size:1.5rem;
+  }
+
+  .titulo-fibra-transmissao h2{
+    margin-bottom: -10px;
+  }
+}
