@@ -21,7 +21,7 @@
 
 /*
   #3d166c = roxo
-  #d2f04e = verde
+  #b8d03a = verde
 */
 
 html{
@@ -30,6 +30,8 @@ html{
 
 body{
   font-family: "Clab", sans-serif;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 #ligamos-pra-voce{
@@ -42,7 +44,6 @@ body{
   border-radius: 5px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  margin-bottom: -15px !important;
 }
 
 #ligamos-pra-voce a:hover{
@@ -52,14 +53,12 @@ body{
 
 .navbar{
   background-color: #3d166c;
-  color: #d2f04e;
+  color: #b8d03a;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .navbar-brand{
-  position: absolute;
-  top:0;
-  left:0;
-  z-index: 9999;
   padding:.5rem;
 }
 
@@ -74,7 +73,7 @@ body{
 }
 
 .navbar .nav-link:hover{
-  color: #d2f04e;
+  color: #b8d03a;
   font-weight: bold;
 }
 
@@ -88,7 +87,7 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #d2f04e;
+  background-color: #b8d03a;
 }
 
 .area-cliente-botao {
@@ -99,12 +98,8 @@ body{
   opacity: .7;
 }
 
-#navbarNav{
-  margin-bottom: -8px;
-}
-
 .first_div{
-  padding-top:100px;
+  padding-top:150px;
 }
 
 /* Card effect */
@@ -167,7 +162,7 @@ body{
   outline: none;
   border: none;
   border-radius: 3px;
-  background: #d2f04e;
+  background: #b8d03a;
   color: #3d166c;
   font-weight: bold;
   cursor: pointer;
@@ -187,13 +182,18 @@ body{
 .descubra{
   background-position: center;
   background-size: cover;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .descubra h2{
-  color:#3d166c;
+  color:white;
   font-weight: bold;
+  margin-bottom: 0;
+}
+
+.descubra-titulo{
+  background-color:#3d166c;
 }
 
 .descubra .top{
@@ -219,6 +219,8 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  border-top: 10px solid #b8d03a;
+  border-bottom: 10px solid #b8d03a;
 }
 
 .cta h3{
@@ -230,7 +232,7 @@ body{
 }
 
 .round-icon{
-  background-color: #d2f04e;
+  background-color: #b8d03a;
   border-radius: 50%;
   height: 40px;
   width: 40px;
@@ -240,22 +242,26 @@ body{
   color: #3d166c;
 }
 
-.fale-conosco h2{
-  color:#3d166c;
-}
-
-.fale-conosco .locais h3{
+.locais h3{
   font-weight: bold;
   font-style: italic;
   font-size: 22pt;
-  color: #d2f04e;
-  text-shadow: 2px 2px 0 rgb(61, 22, 108);
+  color: #3d166c;
+  margin-bottom:0;
 }
 
-.fale-conosco .locais h4{
+.locais h4{
   font-style: italic;
   color:#3d166c;
-  font-size: 12pt;
+  font-size: 16pt;
+}
+
+.descubra-curva{
+  width: 100% !important;
+}
+
+.pin{
+  width:20px !important;
 }
 
 footer{
@@ -269,7 +275,7 @@ footer{
 
 .links a{
   font-style: italic;
-  color: #d2f04e;
+  color: #b8d03a;
 }
 
 .links a:hover{
@@ -291,7 +297,7 @@ footer{
 }
 
 .cta-sobre strong{
-  color: #d2f04e;
+  color: #b8d03a;
   font-style: italic;
 }
 
@@ -320,7 +326,7 @@ footer{
 #carousel-cdn h2{
   font-weight: bold;
   font-style: italic;
-  color: #d2f04e;
+  color: #b8d03a;
   font-size: 180pt;
 }
 
@@ -373,7 +379,7 @@ footer{
 }
 
 .vantagens-planos span{
-  color: #d2f04e;
+  color: #b8d03a;
   font-weight: bold;
 }
 
@@ -427,7 +433,7 @@ footer{
 }
 
 .botao-contratar :hover{
-  color: #d2f04e;
+  color: #b8d03a;
 }
 
 .plan-prev{
@@ -453,8 +459,8 @@ footer{
 }
 
 .btn-area-cliente{
-  background-color: #d2f04e;
-  border-color: #d2f04e;
+  background-color: #b8d03a;
+  border-color: #b8d03a;
   color: #3d166c;
   width:180px;
   height:140px;
@@ -498,6 +504,17 @@ footer{
 
 .botao-noggin{
   font-size:28pt;
+
+}
+
+.botao-noggin a{
+  font-weight: bold;
+  color: #3d166c;
+}
+
+.botao-noggin a:hover{
+  background-color: #3d166c !important;
+  color:white !important;
 }
 
 .texto-banner-educa{
@@ -522,7 +539,7 @@ footer{
 }
 
 .banner-educa h2{
-  color:#d2f04e;
+  color:#b8d03a;
   font-size:180pt;
   font-weight: bold;
   font-style: italic;
@@ -576,7 +593,7 @@ footer{
 }
 
 .texto-fibra h2{
-  font-size:6rem;
+  font-size:3rem;
   color: #3d166c;
 }
 
@@ -618,4 +635,82 @@ footer{
 
 .titulo-fibra-transmissao h2{
   font-size:3rem;
+}
+
+.vantagens-item{
+  background-color:#3d166c;
+  border-radius:24px;
+}
+
+.vantagens-item img{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.vantagens-item .img-div{
+  height: 186px;
+  overflow: hidden;
+  border-bottom-right-radius: 80px;
+}
+
+.vantagens-item p{
+  font-size:8pt;
+}
+
+.vantagens-item a{
+  border-radius:20px;
+  border: 2px solid #b8d03a;
+  font-weight:bold;
+  font-style:italic;
+  font-size:10pt;
+}
+
+.tns-outer {
+  position: relative;
+}
+[data-controls] {
+  border: 0;
+  padding: 0;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  z-index: 1;
+  background: transparent;
+}
+[data-controls="prev"] {
+  left: -30px;
+}
+[data-controls="next"] {
+  right: -30px;
+}
+
+.botao-slider{
+  color:#3d166c;
+}
+
+.barreiras h3{
+  color:#b8d03a;
+  font-weight: bold;
+}
+
+.barreiras strong, .barreiras b{
+  color:#3d166c;
+}
+
+.texto-watch b, .texto-watch h2{
+  color: #3d166c;
+}
+
+.precos-slider .preco{
+  color:#3d166c;
+}
+
+.precos-slider {
+  display: flex;
+}
+
+.card-shadow{
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
+  border:none;
 }

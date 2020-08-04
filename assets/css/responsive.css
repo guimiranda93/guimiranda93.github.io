@@ -1,12 +1,26 @@
 
 @media only screen and (max-width: 769px) {
 
+  .btn{
+    white-space: unset;
+  }
+
+  body{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .navbar{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
   .navbar-brand img{
     height:60px;
   }
 
   .first_div{
-    padding-top:40px;
+    padding-top:65px;
   }
 
   .block-redes-sociais{
@@ -183,7 +197,7 @@
   }
 
   .first_div{
-    padding-top:55px;
+    padding-top:65px;
   }
 
   .block-redes-sociais{
