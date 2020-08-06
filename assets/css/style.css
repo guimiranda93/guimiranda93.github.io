@@ -358,8 +358,8 @@ footer{
 
 .box-texto{
   border: 2px solid #3d166c;
-  border-radius:5px;
-  padding:20px;
+  border-radius:35px;
+  padding:25px;
   height: min-content;
 }
 
@@ -689,6 +689,10 @@ footer{
   color:#3d166c;
 }
 
+.botao-slider-preco{
+  color:white;
+}
+
 .barreiras h3{
   color:#b8d03a;
   font-weight: bold;
@@ -708,6 +712,11 @@ footer{
 
 .precos-slider {
   display: flex;
+}
+
+.precos-slider .card{
+  border-radius:20px;
+  padding:20px !important;
 }
 
 .card-shadow{
