@@ -462,7 +462,6 @@ footer{
   background-color: #b8d03a;
   border-color: #b8d03a;
   color: #3d166c;
-  width:180px;
   height:140px;
 }
 
@@ -708,6 +707,10 @@ footer{
 
 .precos-slider .preco{
   color:#3d166c;
+}
+
+.home-slider {
+  display: flex;
 }
 
 .precos-slider {
