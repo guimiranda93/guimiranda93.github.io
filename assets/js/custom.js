@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 })
 
-$('#ligamos').click(function(e){
+$('.ligamos').click(function(e){
   e.preventDefault();
 
   $('#ligamos-modal').modal();
@@ -60,25 +60,28 @@ $('#ligamos').click(function(e){
 $('#enviaremail').click(function(e){
   e.preventDefault();
 
-  var nome = $('#nome-input').val();
-  var telefone = $('#telefone-input').val();
+  var telefone = $('#telefone-input').cleanVal();
 
-  if(nome == '' || telefone == ''){
-    alert('Preencha o nome e o telefone.');
+  if(telefone == ''){
+    alert('Preencha o telefone.');
   }
   else{
     $.ajax({
-      url:'sendmail.php',
+      url:'https://clients.easytecbrasil.com.br/v1/click-to-call',
       method:'POST',
-      data:{nome:nome, telefone:telefone},
+      timeout:0,
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "token_auth": "a5a714fe910dc99ea3af54c19e057926"
+      },
+      data:{destination:telefone},
       success:function(result){
         alert('Aguarde que entraremos em contato.')
         $('#ligamos-modal').modal('hide');
-        $('#nome-input').val('');
         $('#telefone-input').val('');
       },
       error:function(error){
-        console.log(error);
+        alert(error.responseJSON.message);
       }
     })
   }
