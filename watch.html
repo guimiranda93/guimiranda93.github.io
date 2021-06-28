@@ -1,120 +1,294 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TWSDRZ9');</script>
-    <!-- End Google Tag Manager -->
+	<head>
+		<!-- Google Tag Manager -->
+		<script>
+			(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({
+					"gtm.start": new Date().getTime(),
+					event: "gtm.js",
+				});
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != "dataLayer" ? "&l=" + l : "";
+				j.async = true;
+				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, "script", "dataLayer", "GTM-TWSDRZ9");
+		</script>
+		<!-- End Google Tag Manager -->
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/responsive.css" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-    <link rel="manifest" href="/img/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="/img/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="/img/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="/img/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="/img/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="/img/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="/img/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="/img/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="/img/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/img/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="/img/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/img/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="/img/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/img/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="/img/manifest.json" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta
+			name="msapplication-TileImage"
+			content="/img/ms-icon-144x144.png"
+		/>
+		<meta name="theme-color" content="#ffffff" />
 
-    <title>Nowtech - Internet Fibra Ótica de Alta Velocidade</title>
-    <meta name="author" content="Nowtech - Multiplique Gestão e Marketing" />
-    <meta name="keywords" content="internet, fibra, fibra ótica, alta velocidade, educação, filmes, séries, infantil, planos, roteador, watch, noggin, nowtech watch, nowtech fibra, sac, cdn, area do cliente nowtech, internet rápida, internet boa" />
-    <meta name="description" content="Toda qualidade da tecnologia da fibra óptica Nowtech para todos os nossos clientes. Internet estável e mais veloz para você se divertir, estudar e muito mais!" />
+		<title>Nowtech - Internet Fibra Ótica de Alta Velocidade</title>
+		<meta
+			name="author"
+			content="Nowtech - Multiplique Gestão e Marketing"
+		/>
+		<meta
+			name="keywords"
+			content="internet, fibra, fibra ótica, alta velocidade, educação, filmes, séries, infantil, planos, roteador, watch, noggin, nowtech watch, nowtech fibra, sac, cdn, area do cliente nowtech, internet rápida, internet boa"
+		/>
+		<meta
+			name="description"
+			content="Toda qualidade da tecnologia da fibra óptica Nowtech para todos os nossos clientes. Internet estável e mais veloz para você se divertir, estudar e muito mais!"
+		/>
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Nowtech - Internet Fibra Ótica de Alta Velocidade"/>
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Toda qualidade da tecnologia da fibra óptica Nowtech para todos os nossos clientes. Internet estável e mais veloz para você se divertir, estudar e muito mais!" />
-    <meta property="og:image" content="img/logo-nowtech-og.png"/>
-    <meta property="og:url" content="https://nowtech.com.br"/>
-    <meta property="og:site_name" content="Nowtech - Internet Fibra Ótica"/>
-  </head>
-  <body>
+		<!-- Open Graph -->
+		<meta
+			property="og:title"
+			content="Nowtech - Internet Fibra Ótica de Alta Velocidade"
+		/>
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:description"
+			content="Toda qualidade da tecnologia da fibra óptica Nowtech para todos os nossos clientes. Internet estável e mais veloz para você se divertir, estudar e muito mais!"
+		/>
+		<meta property="og:image" content="img/logo-nowtech-og.png" />
+		<meta property="og:url" content="https://nowtech.com.br" />
+		<meta
+			property="og:site_name"
+			content="Nowtech - Internet Fibra Ótica"
+		/>
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-TWSDRZ9"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			></iframe
+		></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWSDRZ9"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+		<navbar></navbar>
 
-    <navbar></navbar>
+		<div class="background-banner-watch">
+			<img src="img/pipoca-fundo.png" alt="Watch" />
+		</div>
 
-    <div class="first_div">
-      <img src="img/banner-watch.jpg" alt="Watch" class="img-fluid">
-    </div>
+		<div class="container px-5 my-5 texto-watch">
+			<div class="row">
+				<div class="col-12 col-lg-8">
+					<h2>
+						<strong>Filme</strong> &<br /><strong>Pipoca,</strong>
+					</h2>
+					<div class="destaque-watch">
+						<span>
+							existe combinação mais perfeita? <b>Sim!</b>
+						</span>
+					</div>
 
-    <div class="container my-5 texto-watch">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-12 col-lg-10">
-          <h2><strong>Gosta de entretenimento?</strong></h2>
-          <p><b>Filme e pipoca</b>, existe combinação mais perfeita? <b>Sim!</b> Com a <b>Nowtech</b> e <b>Watch Brasil</b> você pode assistir os melhores filmes sem <b>nenhum valor adicional</b> no seu <b>plano</b>.</p>
-          <p>A <b>Watch Brasil</b> é uma <b>plataforma</b> de <b>streaming brasileira</b> exclusiva para provedores de internet, oferecendo <b>séries, filmes, desenhos, realities e programas de humor no catálogo</b>.</p>
-        </div>
-      </div>
-    </div>
+					<p>
+						Com a <b>Nowtech</b> e <b>Paramount+</b> você pode
+						assistir os melhores filmes
+						<b>sem nenhum valor adicional no seu plano.</b>
+					</p>
+					<p>
+						A Paramount+ é uma
+						<b>plataforma de streaming</b> oferecendo séries,
+						filmes, desenhos, realities e programas de humor no
+						catálogo.
+					</p>
+				</div>
+			</div>
+		</div>
 
-    <div class="container">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-12 col-lg-10">
-          <iframe width="100%" height="400" src="https://www.youtube.com/embed/qJMiJ_7XnQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
+		<div class="container px-5">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-12 col-lg-10">
+					<iframe
+						width="100%"
+						height="400"
+						src="https://www.youtube.com/embed/qJMiJ_7XnQg"
+						frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+			</div>
+		</div>
 
-    <div class="container my-5 texto-watch p-5" style="background-color:#efeefe">
-      <div class="row justify-content-center">
-        <div class="col-12 pb-5 text-center">
-          <h2><strong>Você tem acesso a milhares de títulos para<br> assistir quando e onde quiser.</strong></h2>
-        </div>
-        <div class="col-12 col-lg-10">
-          <div class="d-flex justify-content-center align-items-center mb-3">
-            <img src="img/pipoca.png" alt="" width="60" class="mr-4">
-            <p class="mb-0">São mais de <b>3.000 horas</b> de entretenimento para assistir quando e onde quiser: em sua <b>televisão (via Chromecast), computador, tablet ou celular</b>, você escolhe! Os melhores conteúdos na palma de sua mão. Confira algumas <b>séries</b> disponíveis.</p>
-          </div>
-          <div class="d-flex justify-content-center align-items-center">
-            <img src="img/rolo-filme.png" alt="" width="60" class="mr-4">
-            <p class="mb-0">E mais, o <b>aplicativo</b> também conta com <b>séries premiadas</b>. Tudo o que você precisa para ter um momento só seu. Mais uma <b>vantagem</b> para cliente <b>Nowtech!</b></p>
-          </div>
-        </div>
-      </div>
-    </div>
+		<div class="my-5 cta-watch p-5">
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-8 pb-5 text-center">
+					<h2>
+						<strong
+							>Você tem acesso a <span>milhares</span> de títulos
+							para<br />
+							assistir quando e onde quiser.</strong
+						>
+					</h2>
+				</div>
+				<div class="col-12 col-lg-8">
+					<div
+						class="
+							d-flex
+							justify-content-center
+							align-items-center
+							mb-3
+						"
+					>
+						<img
+							src="img/rolo-filme.png"
+							alt=""
+							width="60"
+							class="mr-4"
+						/>
+						<p class="mb-0">
+							São mais de <b>3.000 horas</b> de entretenimento
+							para assistir quando e onde quiser: em sua
+							<b
+								>televisão (via Chromecast), computador, tablet
+								ou celular</b
+							>, você escolhe! Os melhores conteúdos na palma de
+							sua mão. Confira algumas <b>séries</b> disponíveis.
+						</p>
+					</div>
+					<div
+						class="d-flex justify-content-center align-items-center"
+					>
+						<img
+							src="img/pipoca.png"
+							alt=""
+							width="60"
+							class="mr-4"
+						/>
 
-    <div class="my-5">
-      <img src="img/CATALOGO FILMES.png" alt="Catalogo de filmes" class="img-fluid">
-    </div>
+						<p class="mb-0">
+							E mais, o <b>aplicativo</b> também conta com
+							<b>séries premiadas</b>. Tudo o que você precisa
+							para ter um momento só seu. Mais uma
+							<b>vantagem</b> para cliente <b>Nowtech!</b>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <div class="container text-center my-5 botao-noggin">
-      <a href="planos.html" class="p-3 px-5 btn btn-primary" style="border: 3px solid #3d166c; background-color: #b8d03a; border-radius:50px;">CONHEÇA NOSSOS PLANOS E CONTRATE AGORA</a>
-    </div>
+		<div class="my-5">
+			<img
+				src="img/cta-carousel.jpg"
+				alt="Catalogo de filmes"
+				class="img-fluid"
+			/>
+			<p class="footer-text-watch px-5">
+				ESSES E <b>MUITOS OUTROS FILMES E SÉRIES</b> PARA VOCÊ E SUA
+				FAMÍLIA!
+			</p>
+		</div>
 
+		<div class="container text-center my-5 botao-noggin">
+			<a
+				href="planos.html"
+				class="p-3 px-5 btn btn-primary"
+				style="
+					border: 3px solid #3d166c;
+					background-color: #b8d03a;
+					border-radius: 50px;
+				"
+				>CONHEÇA NOSSOS PLANOS E CONTRATE AGORA</a
+			>
+		</div>
 
-    <footer></footer>
+		<footer></footer>
 
-    <script src="assets/js/imports.js"></script>
+		<script src="assets/js/imports.js"></script>
 
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-    <script src="assets/js/jquery.mask.min.js"></script>
-    <script src="assets/js/custom.js"></script>
-  </body>
+		<script src="assets/js/jquery-3.5.1.min.js"></script>
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+		<script src="assets/js/jquery.mask.min.js"></script>
+		<script src="assets/js/custom.js"></script>
+	</body>
 </html>
